@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'chart-js-angular';
+  title = 'Routing Guards with Chart js Angular';
 }
