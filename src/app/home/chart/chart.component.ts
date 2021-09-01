@@ -20,6 +20,7 @@ export class ChartComponent implements OnInit {
   ngOnInit(): void {
     this.canvas = <HTMLCanvasElement>document.getElementById('chart');
     this.ctx = this.canvas!.getContext('2d');
+    this.drawChart();
   }
 
   drawChart() {
